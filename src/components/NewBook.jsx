@@ -1,9 +1,9 @@
 import styles from "./NewBook.module.css";
 
-export default function NewBook() {
+export default function NewBook({ onClick }) {
     return (
-        <div className={styles.newBookContainer}>
+        <button className={styles.newBookContainer} onClick={onClick}>
             <div className={styles.pulsBtn}>Add New Book</div>
-        </div>
+        </button>
     );
 }
