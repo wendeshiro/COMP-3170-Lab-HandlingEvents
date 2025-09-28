@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     width: 200px;
-    height: 360px;
+    height: 400px;
     box-sizing: border-box;
     border: #d2c6bf 1px solid;
     border-radius: 8px;
     padding: 8px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .bookTitle {
@@ -23,10 +25,6 @@
     align-items: center;
 }
 
-/* .bookAuthor {
-    margin: 15px 0px 0px 0px;
-} */
-
 .bookPrice {
     color: #68564b;
     font-weight: bold;
@@ -37,4 +35,17 @@
 
 .bookImage {
     max-width: 200px;
+}
+
+.removeButton {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    padding: 8px 10px;
+    background-color: #d24d3e;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
 }
