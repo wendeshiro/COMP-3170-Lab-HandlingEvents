@@ -1,1 +1,1 @@
-# COMP-3170-Lab-Rendering Lists
+# COMP-3170-Lab
